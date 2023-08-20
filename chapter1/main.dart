@@ -43,6 +43,9 @@ void main() {
   variable7 = 11;
   print("Variable 7 = $variable7");
 
+  int? variable8 = null;
+  print("Variable 8 = $variable8");
 
-
+  variable8 = 11;
+  print("Variable 8 = $variable8");
 }
