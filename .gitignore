@@ -395,6 +395,8 @@ FodyWeavers.xsd
 
 # Misc folders and files
 .idea/
+.dart_tool/
 FlutterAndDartCookbook.iml
+pubspec.lock
 main
 
