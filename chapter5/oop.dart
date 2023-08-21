@@ -17,15 +17,15 @@ void oop2() {
   print("oop2");
 
   var media = Media();
-  media.setTitle("Media title");
+  media.setTitle = "Media title";
 
   var book = Book();
-  book.setTitle("Book title");
+  book.setTitle = "Book title";
   book.setAuthor("John Doe");
   book.setIsbn("123123124124");
 
-  print("{title: ${media.getTitle()}, type: ${media.getType()}}");
-  print("{title: ${book.getTitle()}, type: ${book.getType()}, author: ${book.getAuthor()}, ISBN: ${book.getIsbn()}}");
+  print("{title: ${media.getTitle}, type: ${media.getType}}");
+  print("{title: ${book.getTitle}, type: ${book.getType}, author: ${book.getAuthor()}, ISBN: ${book.getIsbn()}}");
 }
 
 void oop3() {

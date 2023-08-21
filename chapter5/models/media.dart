@@ -7,15 +7,15 @@ class Media {
     type = "Class";
   }
 
-  void setTitle(String newTitle) {
+  set setTitle(String newTitle) {
     title = newTitle;
   }
 
-  String getTitle() {
+  get getTitle {
     return title;
   }
 
-  String getType() {
+  get getType {
     return type;
   }
 }
