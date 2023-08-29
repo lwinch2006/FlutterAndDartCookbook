@@ -1,0 +1,7 @@
+name: chapter8
+description: Chapter 8
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.6
+

@@ -399,4 +399,5 @@ FodyWeavers.xsd
 FlutterAndDartCookbook.iml
 pubspec.lock
 main
+build/
 
