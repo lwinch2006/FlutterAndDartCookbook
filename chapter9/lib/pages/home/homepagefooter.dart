@@ -11,7 +11,12 @@ class HomePageFooter extends StatelessWidget {
       child: SizedBox(
         height: 50,
         child: Center(
-          child: Text("Bottom Navigation Bar"),
+          child: Text(
+            "Bottom Navigation Bar",
+            style: TextStyle(
+              backgroundColor: Colors.orange
+            ),
+          ),
         ),
       ),
     );

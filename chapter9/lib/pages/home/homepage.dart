@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       //backgroundColor: Colors.white,
       appBar: HomePageHeader(appBar: AppBar()),
       bottomNavigationBar: const HomePageFooter(),
-      body: const HomePageWidget(),
+      body: const HomePageMain(),
     );
   }
 }
